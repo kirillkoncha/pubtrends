@@ -30,7 +30,7 @@ def find_optimal_k(
 ) -> tuple[int, float]:
     """Find the optimal number of clusters using Silhouette Score."""
     silhouette_scores = []
-    k_values = range(min_clusters, max_clusters)  # Trying K from 2 to 14
+    k_values = range(min_clusters, max_clusters)
 
     for k in k_values:
         kmeans = KMeans(n_clusters=k, random_state=42, n_init=10)
