@@ -6,7 +6,7 @@ from src.vis import pca_vis, pmid2gse
 
 SAVE_DATASET_PATH = "./data/pmid_gse_data.csv"
 
-st.title("Text File Analysis and Visualization")
+st.title("PubTrends: Extraction of Articles and Linked Datasets")
 
 st.session_state["file_uploaded"] = False
 st.session_state["parsing_done"] = False
