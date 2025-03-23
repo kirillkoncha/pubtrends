@@ -46,7 +46,7 @@ def pca_vis(df):
         y="PCA2",
         hue="Cluster_Name",
         data=df,
-        palette="tab20",
+        palette="hsv",
         s=150,
         edgecolor="black",
         alpha=0.8,
