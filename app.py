@@ -84,7 +84,7 @@ if st.session_state["clustering_done"]:
 
     csv = df.to_csv(index=False).encode("utf-8")
     st.download_button(
-        label="Download Clustered Data",
+        label="Download Clustered Data (Plots Data Will Disappear)",
         data=csv,
         file_name="data_clustered.csv",
         mime="text/csv",
